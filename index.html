@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script>
+		// 1） 【难度★★】用JS计算下列算式，并将结果在控制台输出：
+		// var a=((123+45*78)/(34+543))-(9*(324-34));
+		// console.log(a);
+
+		// 2） 【难度★★】世界上表示气温有两种方法：摄氏度和华氏度。两者的关系是：
+ 		// var a=prompt('摄氏度');
+ 		// var h=(9/5)*a+32;
+ 		// alert(h);
+ 		// 3)  用JS计算下列算式，并将结果在控制台输出：
+ 			// var a=(23+Math.pow(5,7))/45;
+ 			// var b=Math.pow(a,2);
+ 			// console.log(b);
+ 		// var b=prompt('边长');
+ 		// var c=(3*Math.sqrt(3))/2
+ 		// var m=c*Math.pow(b,2);
+ 		// alert(m);
+ 		// 如果今天是星期六，那么1000天后是星期几？用一条语句计算出来。
+ 		// var b=1000%6;
+ 		// var a=parseInt(b);
+ 		// console.log('第1000天后星期'+a);
+ 		// 用户输入一个三位数，用程序计算三位数字的和。
+ 		// var a=parseInt(prompt('请输入三位数'));
+ 		// var b=parseInt(a/100);
+ 		// var c=parseFloat(a%10);
+ 		// var e=parseInt(a%100/10);
+ 		// var s=b+c+e;
+ 		// alert(s);
+
+ 		var w=parseFloat(prompt("请输入体重"));
+ 		var h=parseFloat(prompt('请输入升高'));
+ 		var BMI=w/Math.pow(h,2);
+ 		if(BMI<18.5){
+ 			alert('过轻');
+ 		}else if ( BMI<=25){
+ 			alert('正常');
+ 		}else if (BMI<=28){
+ 			alert('过重');
+ 		}else if (BMI<=32){
+ 			alert('肥胖');
+ 		}else{
+ 			alert('非常肥胖')
+ 		}
+	</script>
+</body>
+</html>
